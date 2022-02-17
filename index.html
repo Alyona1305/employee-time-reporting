@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Employee time reporting</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 </head>
 <body>
@@ -44,6 +45,34 @@
             <img src="assets/svg/avatar.svg" alt="avatar">
         </div>
     </header>
+    <main class="main">
+        <div class="main__filters">
+            <div class="main__filter-dev">
+                <label for="filter-dev-select" class="main__filter-dev-title">Dev</label>
+                <select class="main__filter-dev-select" id="filter-dev-select">
+                    <option class="main__filter-option">Jenny Wilson</option>
+                </select>
+            </div>
+            <div class="main__filter-status">
+                <label for="filter-status-select" class="main__filter-status-title">Status</label>
+                <select class="main__filter-status-select" id="filter-status-select">
+                    <option class="main__filter-option">All statuses</option>
+                </select>
+            </div>
+            <div class="main__checkbox-buttons-container">
+                <div class="main__efficiency">
+                    <input type="checkbox" id="efficiency" class="main__efficiency-checkbox" checked>
+                    <label for="efficiency">Show Efficiency</label>
+                </div>
+                <div>
+                    <button class="main__button-apply">Apply</button>
+                </div>
+                <div>
+                    <button class="main__button-reset">Reset Filters</button>
+                </div>
+            </div>
+        </div>
+    </main>
 </div>
 <script src="main.js"></script>
 </body>
