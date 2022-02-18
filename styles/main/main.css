@@ -1,0 +1,10 @@
+
+.main {
+    font-size: var(--basic-font-size);
+    background-color: var(--main-bg-color);
+}
+
+.main-block {
+    display: flex;
+    margin-left: var(--main-ml);
+}

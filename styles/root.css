@@ -1,11 +1,13 @@
 @import "header.css";
-@import "filters.css";
-@import "main.css";
+@import "main/filters.css";
+@import "main/mainInfoBlock.css";
+@import "main/mainTimeBlock.css";
 
 :root {
-    --main-bg-color:#171E28;
+    --main-bg-color: #171E28;
     --primary-bg-color: #242B35;
     --secondary-bg-color: #8F7FFF;
+    --dark-grey-bg-color: #3D444E;
     --color-primary: #C7BFFF;
     --text-color-secondary: #B6B4C6;
     --text-color-light-violet: #8F7FFF;
@@ -34,12 +36,17 @@
     --height-category-header: 100%;
     --ml-category-text: 8px;
 
-    /*for blocks*/
+    /*for block info*/
     --block-width: 648px;
     --block-height: 606px;
     --block-margin-title: 40px 0 24px 0;
     --block-fs-title: 16px;
     --block-inside-padding: 0 10px 0 64px;
+
+    /*for block time*/
+    --inside-block-width: 240px;
+    --inside-block-mb: 16px;
+
 }
 
 
@@ -52,4 +59,8 @@
 .container {
     width: 1440px;
     height: 2068px;
+}
+
+ul {
+    list-style: none;
 }

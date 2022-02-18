@@ -47,7 +47,7 @@ select {
     border: var(--main-border);
     border-radius: var(--main-border-radius);
     padding: var(--select-padding);
-    background-image: url('../assets/svg/arrow.svg');
+    background-image: url('../../assets/svg/arrow.svg');
     background-repeat: no-repeat;
     background-position: right 18px top 50%;
     cursor: pointer;
@@ -100,7 +100,7 @@ input[type=checkbox]:checked:after {
     display: flex;
     align-items: center;
     justify-content: center;
-    content: url("../assets/svg/checkMark.svg");
+    content: url("../../assets/svg/checkMark.svg");
 }
 
 .main__button-apply {

@@ -1,0 +1,96 @@
+@import "../root.css";
+@import "main.css";
+
+
+.main-block__project-time {
+    width: var(--block-width);
+    height: var(--block-height);
+    background-color: var(--primary-bg-color);
+    border: var(--main-border);
+    border-radius: var(--main-border-radius);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-block__project-time-title {
+    margin: var(--block-margin-title);
+    font-size: var(--block-fs-title);
+    font-weight: var(--fw-bold);
+    color: var(--color-white);
+}
+
+.main-block__container-time{
+    display: flex;
+}
+
+.main-block__total-time-container{
+    width: var(--inside-block-width);
+    margin-right: 39px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-block__total-time-title{
+    width: var(--inside-block-width);
+    font-size: var(--basic-font-size);
+    font-weight: var(--fw-normal);
+    color: var(--color-primary);
+    margin-bottom: var(--inside-block-mb);
+}
+
+.main-block__current-month-time-container{
+    width: var(--inside-block-width);
+    font-size: var(--basic-font-size);
+    font-weight: var(--fw-normal);
+    color: var(--color-primary);
+    margin-bottom: var(--inside-block-mb);
+}
+
+.main-block__total-time-container li{
+    margin-bottom: var(--inside-block-mb);
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-block__project-time-list {
+   height: 399px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.main-block__project-time div[class*="value"],
+.main-block__project-time div[class*="key"]{
+    color: var(--color-primary);
+    position: relative;
+}
+
+.main-block__project-time .key:before{
+    content: '';
+    position:absolute;
+    border-bottom: var(--main-border);
+    width: 240px;
+    bottom: -8px;
+}
+
+.main-block__project-time .nested-key:before{
+    content: '';
+    position:absolute;
+    border-bottom: var(--main-border);
+    width: 224px;
+    bottom: -8px;
+}
+
+.nested-ul{
+    width: var(--inside-block-width);
+    padding-left: 15px;
+}
+
+.main-block__project-time-list div[class=key] {
+    font-weight: var(--fw-semi-bold);
+}
+
+.value-sum, .key-sum{
+    font-weight: var(--fw-semi-bold);
+}
