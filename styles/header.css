@@ -30,7 +30,7 @@
     font-family: 'Open Sans', sans-serif;
     color: var(--text-color-secondary);
     font-size: var(--basic-font-size);
-    font-weight: var(--font-weight);
+    font-weight: var(--fw-semi-bold);
     margin-left: var(--ml-category-text);
 }
 
@@ -46,7 +46,7 @@
     font-family: 'Open Sans', sans-serif;
     color: var(--text-color-secondary);
     font-size: var(--basic-font-size);
-    font-weight: var(--font-weight);
+    font-weight: var(--fw-semi-bold);
     margin-left: var(--ml-category-text);
 }
 
@@ -78,7 +78,7 @@
     font-family: 'Open Sans', sans-serif;
     color: var(--text-color-secondary);
     font-size: var(--basic-font-size);
-    font-weight: var(--font-weight);
+    font-weight: var(--fw-semi-bold);
     margin-left: var(--ml-category-text);
 }
 
@@ -94,7 +94,7 @@
     font-family: 'Open Sans', sans-serif;
     color: var(--text-color-secondary);
     font-size: var(--basic-font-size);
-    font-weight: var(--font-weight);
+    font-weight: var(--fw-semi-bold);
     margin-left: var(--ml-category-text);
 }
 
@@ -110,7 +110,7 @@
     font-family: 'Open Sans', sans-serif;
     color: var(--text-color-secondary);
     font-size: var(--basic-font-size);
-    font-weight: var(--font-weight);
+    font-weight: var(--fw-semi-bold);
     margin-left: var(--ml-category-text);
 }
 
@@ -126,7 +126,7 @@
     font-family: 'Open Sans', sans-serif;
     color: var(--text-color-secondary);
     font-size: var(--basic-font-size);
-    font-weight: var(--font-weight);
+    font-weight: var(--fw-semi-bold);
     margin-left: var(--ml-category-text);
 }
 
@@ -142,7 +142,7 @@
     font-family: 'Open Sans', sans-serif;
     color: var(--text-color-secondary);
     font-size: var(--basic-font-size);
-    font-weight: var(--font-weight);
+    font-weight: var(--fw-semi-bold);
     margin-left: var(--ml-category-text);
 }
 

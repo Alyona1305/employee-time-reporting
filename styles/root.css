@@ -9,17 +9,23 @@
     --color-primary: #C7BFFF;
     --text-color-secondary: #B6B4C6;
     --text-color-light-violet: #8F7FFF;
+    --color-alert: #FF6A59;
     --select-width: 200px;
     --select-height: 40px;
     --main-border: 1px solid #3D444E;
-    --border-radius: 7px;
+    --main-border-radius: 7px;
     --basic-font-size: 14px;
-    --font-weight: 600;
+    --main-ml: 60px;
+
+    --fw-bold: 700;
+    --fw-semi-bold: 600;
+    --fw-normal: 400;
+
+    --color-white: #FFFFFF;
 
     /*for filters*/
     --filter-mr: 24px;
     --button-height: 40px;
-    --button-name-fw: 700;
     --select-padding: 0 18px 0 16px;
 
     /*for header*/
@@ -27,12 +33,20 @@
     --mr-categoty-header: 48px;
     --height-category-header: 100%;
     --ml-category-text: 8px;
+
+    /*for blocks*/
+    --block-width: 648px;
+    --block-height: 606px;
+    --block-margin-title: 40px 0 24px 0;
+    --block-fs-title: 16px;
+    --block-inside-padding: 0 10px 0 64px;
 }
 
 
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .container {
