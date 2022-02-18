@@ -14,7 +14,7 @@
 }
 
 .main__filter-dev-title {
-    color: var(--text-color-primary);
+    color: var(--color-primary);
     font-weight: var(--font-weight);
     margin-bottom: 8px;
 }
@@ -28,42 +28,35 @@
 
 
 .main__filter-status-title {
-    color: var(--text-color-primary);
+    color: var(--color-primary);
     font-weight: var(--font-weight);
     margin-bottom: 8px;
 }
 
-.main__filter-dev-select {
-    background-color: var(--primary-bg-color);
-    color: var(--text-color-secondary);
-    width: var(--select-width);
-    height: var(--select-height);
-    border: var(--select-border);
-    border-radius: var(--border-radius);
-    padding: var(--select-padding);
-}
-
 select {
     -webkit-appearance: none;
-    -moz-appearance: none;
     text-indent: 1px;
     text-overflow: '';
 }
+
 select {
     background-color: var(--primary-bg-color);
     color: var(--text-color-secondary);
     width: var(--select-width);
     height: var(--select-height);
-    border: var(--select-border);
+    border: var(--main-border);
     border-radius: var(--border-radius);
     padding: var(--select-padding);
     background-image: url('../assets/svg/arrow.svg');
     background-repeat: no-repeat;
     background-position: right 18px top 50%;
+    cursor: pointer;
 }
 
-select::-ms-expand { display: none; }
-select:hover { border-color: #888; }
+select:hover {
+    border-color: var(--secondary-bg-color);
+}
+
 select:focus {
     outline: none;
 }
@@ -98,7 +91,7 @@ input[type=checkbox]:after {
     height: 20px;
     width: 20px;
     visibility: visible;
-    border: var(--select-border);
+    border: var(--main-border);
     border-radius: 3px;
 }
 
@@ -119,7 +112,7 @@ input[type=checkbox]:checked:after {
     font-weight: var(--button-name-fw);
     color: #FFFFFF;
     width: 96px;
-    border: none;
+    border: 1px solid var(--secondary-bg-color);
 }
 
 .main__button-reset {
@@ -130,4 +123,16 @@ input[type=checkbox]:checked:after {
     color: var(--text-color-light-violet);
     border: 1px solid var(--secondary-bg-color);
     width: 143px;
+}
+
+.main__button-reset:hover {
+    border: var(--main-border);
+}
+
+.main__button-apply:hover {
+    border: var(--main-border);
+}
+
+button{
+    cursor: pointer;
 }

@@ -6,7 +6,7 @@
     align-items: center;
     justify-content: center;
     height: 68px;
-    border-bottom: 1px solid #3D444E;
+    border-bottom: 1px solid var(--main-border);
 }
 
 .header__app-logo {
@@ -18,7 +18,7 @@
     height: var(--height-category-header);
 }
 
-.header__summary{
+.header__summary {
     margin-right: var(--mr-categoty-header);
     height: var(--height-category-header);
     display: flex;
@@ -26,7 +26,7 @@
     align-items: center;
 }
 
-.header__summary-text{
+.header__summary-text {
     font-family: 'Open Sans', sans-serif;
     color: var(--text-color-secondary);
     font-size: var(--basic-font-size);
@@ -34,7 +34,7 @@
     margin-left: var(--ml-category-text);
 }
 
-.header__hours{
+.header__hours {
     height: var(--height-category-header);
     display: flex;
     justify-content: center;
@@ -42,7 +42,7 @@
     margin-right: 24px;
 }
 
-.header__hours-text{
+.header__hours-text {
     font-family: 'Open Sans', sans-serif;
     color: var(--text-color-secondary);
     font-size: var(--basic-font-size);
@@ -50,17 +50,31 @@
     margin-left: var(--ml-category-text);
 }
 
-.header__projects{
+.header__projects {
     width: var(--width-categoty-header);
-    height: var(--height-category-header);
+    height: calc(var(--height-category-header) + 2px);
     display: flex;
     justify-content: center;
     align-items: center;
     margin-right: 26px;
     background: rgba(143, 127, 255, 0.15);
+    position: relative;
 }
 
-.header__projects-text{
+.header__projects::after {
+    content: "";
+    display: block;
+    width: var(--width-categoty-header);
+    height: 3px;
+    position: absolute;
+    bottom: 0;
+    background-image: linear-gradient(359.80deg, #BFBAFA 15.3%, #624BFF 87.74%, #8F7FFF 87.74%, #7F76F7 87.74%);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    border-radius: 0 0 2px 2px;
+}
+
+.header__projects-text {
     font-family: 'Open Sans', sans-serif;
     color: var(--text-color-secondary);
     font-size: var(--basic-font-size);
@@ -68,7 +82,7 @@
     margin-left: var(--ml-category-text);
 }
 
-.header__time-reports{
+.header__time-reports {
     height: var(--height-category-header);
     margin-right: var(--mr-categoty-header);
     display: flex;
@@ -76,7 +90,7 @@
     align-items: center;
 }
 
-.header__time-reports-text{
+.header__time-reports-text {
     font-family: 'Open Sans', sans-serif;
     color: var(--text-color-secondary);
     font-size: var(--basic-font-size);
@@ -84,7 +98,7 @@
     margin-left: var(--ml-category-text);
 }
 
-.header__confirmation{
+.header__confirmation {
     height: var(--height-category-header);
     margin-right: var(--mr-categoty-header);
     display: flex;
@@ -92,7 +106,7 @@
     align-items: center;
 }
 
-.header__confirmation-text{
+.header__confirmation-text {
     font-family: 'Open Sans', sans-serif;
     color: var(--text-color-secondary);
     font-size: var(--basic-font-size);
@@ -100,7 +114,7 @@
     margin-left: var(--ml-category-text);
 }
 
-.header__mailer{
+.header__mailer {
     height: var(--height-category-header);
     margin-right: var(--mr-categoty-header);
     display: flex;
@@ -108,7 +122,7 @@
     align-items: center;
 }
 
-.header__mailer-text{
+.header__mailer-text {
     font-family: 'Open Sans', sans-serif;
     color: var(--text-color-secondary);
     font-size: var(--basic-font-size);
@@ -116,7 +130,7 @@
     margin-left: var(--ml-category-text);
 }
 
-.header__compare{
+.header__compare {
     height: var(--height-category-header);
     margin-right: var(--mr-categoty-header);
     display: flex;
@@ -124,7 +138,7 @@
     align-items: center;
 }
 
-.header__compare-text{
+.header__compare-text {
     font-family: 'Open Sans', sans-serif;
     color: var(--text-color-secondary);
     font-size: var(--basic-font-size);
@@ -132,11 +146,15 @@
     margin-left: var(--ml-category-text);
 }
 
-.header__avatar{
+.header__avatar {
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 164px;
     border-left: 1px solid #3D444E;
+}
+
+span[class*="-text"]{
+    cursor: pointer;
 }
