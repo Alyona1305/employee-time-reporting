@@ -1,0 +1,41 @@
+@import "header.css";
+@import "filters.css";
+@import "main.css";
+
+:root {
+    --main-bg-color:#171E28;
+    --primary-bg-color: #242B35;
+    --secondary-bg-color: #8F7FFF;
+    --text-color-primary: #C7BFFF;
+    --text-color-secondary: #B6B4C6;
+    --text-color-light-violet: #8F7FFF;
+    --select-width: 200px;
+    --select-height: 40px;
+    --select-border: 1px solid #3D444E;
+    --border-radius: 7px;
+    --basic-font-size: 14px;
+    --font-weight: 600;
+
+    /*for filters*/
+    --filter-mr: 24px;
+    --button-height: 40px;
+    --button-name-fw: 700;
+    --select-padding: 0 18px 0 16px;
+
+    /*for header*/
+    --width-categoty-header: 127px;
+    --mr-categoty-header: 48px;
+    --height-category-header: 100%;
+    --ml-category-text: 8px;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1440px;
+    height: 2068px;
+}

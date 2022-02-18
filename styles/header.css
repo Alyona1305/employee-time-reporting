@@ -1,24 +1,4 @@
-:root {
-    --primary-bg-color: #242B35;
-    --for-names-color: #B6B4C6;
-    --font-size: 14px;
-    --font-weight: 600;
-    --width-categoty-header: 127px;
-    --mr-categoty-header: 48px;
-    --height-category-header: 100%;
-    --ml-category-text: 8px;
-}
-
-* {
-    margin: 0;
-    padding: 0;
-}
-
-.container {
-    width: 1440px;
-    height: 2068px;
-
-}
+@import "root.css";
 
 .header {
     background-color: var(--primary-bg-color);
@@ -48,8 +28,8 @@
 
 .header__summary-text{
     font-family: 'Open Sans', sans-serif;
-    color: var(--for-names-color);
-    font-size: var(--font-size);
+    color: var(--text-color-secondary);
+    font-size: var(--basic-font-size);
     font-weight: var(--font-weight);
     margin-left: var(--ml-category-text);
 }
@@ -64,8 +44,8 @@
 
 .header__hours-text{
     font-family: 'Open Sans', sans-serif;
-    color: var(--for-names-color);
-    font-size: var(--font-size);
+    color: var(--text-color-secondary);
+    font-size: var(--basic-font-size);
     font-weight: var(--font-weight);
     margin-left: var(--ml-category-text);
 }
@@ -82,8 +62,8 @@
 
 .header__projects-text{
     font-family: 'Open Sans', sans-serif;
-    color: var(--for-names-color);
-    font-size: var(--font-size);
+    color: var(--text-color-secondary);
+    font-size: var(--basic-font-size);
     font-weight: var(--font-weight);
     margin-left: var(--ml-category-text);
 }
@@ -98,8 +78,8 @@
 
 .header__time-reports-text{
     font-family: 'Open Sans', sans-serif;
-    color: var(--for-names-color);
-    font-size: var(--font-size);
+    color: var(--text-color-secondary);
+    font-size: var(--basic-font-size);
     font-weight: var(--font-weight);
     margin-left: var(--ml-category-text);
 }
@@ -114,8 +94,8 @@
 
 .header__confirmation-text{
     font-family: 'Open Sans', sans-serif;
-    color: var(--for-names-color);
-    font-size: var(--font-size);
+    color: var(--text-color-secondary);
+    font-size: var(--basic-font-size);
     font-weight: var(--font-weight);
     margin-left: var(--ml-category-text);
 }
@@ -130,8 +110,8 @@
 
 .header__mailer-text{
     font-family: 'Open Sans', sans-serif;
-    color: var(--for-names-color);
-    font-size: var(--font-size);
+    color: var(--text-color-secondary);
+    font-size: var(--basic-font-size);
     font-weight: var(--font-weight);
     margin-left: var(--ml-category-text);
 }
@@ -146,8 +126,8 @@
 
 .header__compare-text{
     font-family: 'Open Sans', sans-serif;
-    color: var(--for-names-color);
-    font-size: var(--font-size);
+    color: var(--text-color-secondary);
+    font-size: var(--basic-font-size);
     font-weight: var(--font-weight);
     margin-left: var(--ml-category-text);
 }
