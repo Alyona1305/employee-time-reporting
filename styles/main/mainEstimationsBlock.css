@@ -1,0 +1,37 @@
+@import "../root.css";
+@import "main.css";
+
+.main-block__estimations-container{
+    width: var(--inside-block-width);
+    display: flex;
+    flex-direction: column;
+}
+
+.main-block__estimations-title{
+    width: var(--inside-block-width);
+    font-size: var(--basic-font-size);
+    font-weight: var(--fw-normal);
+    color: var(--color-primary);
+    margin-bottom: var(--inside-block-mb);
+}
+
+.main-block__estimations-list{
+    height: 99px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-block__estimations-container li{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-block__estimations div[class*="value"],
+.main-block__estimations div[class*="key"]{
+    color: var(--color-primary);
+    position: relative;
+}
+
+.main-block__estimations-list div[class=key] {
+    font-weight: var(--fw-semi-bold);
+}

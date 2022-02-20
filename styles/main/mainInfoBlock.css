@@ -14,12 +14,12 @@
     align-items: center;
 }
 
-.main-block__project-info-separator{
-    height: 39px;
-    width: var(--block-width);
-    position: absolute;
-    bottom: 0;
-}
+/*.main-block__project-info-separator{*/
+/*    height: 39px;*/
+/*    width: var(--block-width);*/
+/*    position: absolute;*/
+/*    bottom: 0;*/
+/*}*/
 
 .scroll {
     overflow-y: scroll;
@@ -46,52 +46,43 @@
     color: var(--color-white);
 }
 
-.main-block__project-info li {
-    float: left;
-    width: 22%;
-}
-
-.main-block__project-info li[class=value],
-.main-block__project-info li[class=key] {
+.main-block__project-info-li {
     color: var(--color-primary);
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
 }
 
-.main-block__project-info-list li {
-    margin-bottom: var(--inside-block-mb);
+.main-block__project-info-key {
+    font-weight: var(--fw-semi-bold);
+
 }
 
-.main-block__project-info-list{
-    height: 480px;
-    padding: var(--block-inside-padding);
-}
-
-.main-block__project-info-list li[class*="value"] {
+.main-block__project-info-value {
     font-weight: var(--fw-normal);
-    line-height: 21px;
     width: 385px;
+    margin: 0 46px;
+}
+
+
+.main-block__project-info-list {
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    line-height: 21px;
+    margin-left: 56px;
+}
+
+.dollar-sign-icon {
+    width: 20px;
+    height: 20px;
 }
 
 .main-block__project-info-list li[class=key] {
     font-weight: var(--fw-semi-bold);
-    margin-right: 45px;
 }
 
-.value-non-completed{
+.value-non-completed {
     color: var(--color-alert);
-}
-
-.value-label{
-    font-size: 12px;
-}
-
-.value-tag{
-    height: 24px;
-    width: 100px;
-    border: 1px solid #6F68C6;
-    border-radius: 15px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 12px;
 }
 

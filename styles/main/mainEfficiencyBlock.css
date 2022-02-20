@@ -1,0 +1,93 @@
+@import "../root.css";
+@import "main.css";
+
+.main-block-efficiency{
+    width: 1320px;
+    height: 263px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--primary-bg-color);
+    border: var(--main-border);
+    border-radius: var(--main-border-radius);
+    position: relative;
+    margin-right: 24px;
+}
+
+.main-block-efficiency__title{
+    margin: var(--block-margin-title);
+    font-size: var(--block-fs-title);
+    font-weight: var(--fw-bold);
+    color: var(--color-white);
+}
+
+.main-block-efficiency__container{
+    display: flex;
+    /*margin-left: 57px;*/
+}
+
+.main-block-efficiency__total-container,
+.main-block-efficiency__current-month-container{
+    width: 576px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-block-efficiency__total-container{
+    margin-right: 39px;
+}
+
+.main-block-efficiency__total{
+    width: 100%;
+}
+
+
+.main-block-efficiency__total-title,
+.main-block-efficiency__current-month-title{
+    width: var(--inside-block-width);
+    font-size: var(--basic-font-size);
+    font-weight: var(--fw-normal);
+    color: var(--color-primary);
+    margin-bottom: var(--inside-block-mb);
+}
+
+.main-block-efficiency__total-list,
+.main-block-efficiency__current-month-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-block-efficiency__total-list li,
+.main-block-efficiency__current-month-list li{
+    display: flex;
+    justify-content: space-between;
+}
+
+/*.main-block-efficiency div[class*="value"],*/
+/*.main-block-efficiency div[class*="key"],*/
+/*.main-block-efficiency div[class*="percent"]{*/
+/*    color: var(--color-primary);*/
+/*    !*position: relative;*!*/
+/*}*/
+
+/*.main-block__estimations-list div[class=key] {*/
+/*    font-weight: var(--fw-semi-bold);*/
+/*}*/
+
+.main-block-efficiency__total-list .li:not(:first-child):after,
+.main-block-efficiency__current-month-list .li:not(:first-child):after {
+    width: 576px;
+}
+
+.key, .value, .percent{
+    margin: 8px 0;
+    color: var(--color-primary);
+    font-weight: var(--fw-bold);
+}
+
+
+.key-average, .value-average, .percent-average{
+    margin-top: 12px;
+    color: var(--color-primary);
+    font-weight: var(--fw-bold);
+}

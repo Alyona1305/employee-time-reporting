@@ -2,16 +2,23 @@
 @import "main/filters.css";
 @import "main/mainInfoBlock.css";
 @import "main/mainTimeBlock.css";
+@import "main/mainCurMonthBlock.css";
+@import "main/mainEstimationsBlock.css";
+@import "main/mainEfficiencyBlock.css";
+@import "main/mainGrid.css";
 
 :root {
     --main-bg-color: #171E28;
     --primary-bg-color: #242B35;
     --secondary-bg-color: #8F7FFF;
     --dark-grey-bg-color: #3D444E;
+    --tone-dark-grey-bg-color-first: #2D333D;
+    --tone-dark-grey-bg-color-second: #1E242F;
     --color-primary: #C7BFFF;
     --text-color-secondary: #B6B4C6;
     --text-color-light-violet: #8F7FFF;
     --color-alert: #FF6A59;
+    --color-completed: #27AE60;
     --select-width: 200px;
     --select-height: 40px;
     --main-border: 1px solid #3D444E;
@@ -47,6 +54,8 @@
     --inside-block-width: 240px;
     --inside-block-mb: 16px;
 
+    /*for grid */
+    --grid-width: 1319px;
 }
 
 

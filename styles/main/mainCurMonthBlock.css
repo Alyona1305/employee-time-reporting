@@ -1,18 +1,13 @@
 @import "../root.css";
 @import "main.css";
 
-.main-block__container-time {
-    display: flex;
-}
-
-.main-block__total-time-container {
+.main-block__current-month-time-container{
     width: var(--inside-block-width);
-    margin-right: 39px;
     display: flex;
     flex-direction: column;
 }
 
-.main-block__total-time-title {
+.main-block__current-month-time-title{
     width: var(--inside-block-width);
     font-size: var(--basic-font-size);
     font-weight: var(--fw-normal);
@@ -20,27 +15,28 @@
     margin-bottom: var(--inside-block-mb);
 }
 
-
-.main-block__total-time-container li {
+.main-block__current-month-time-container li{
     display: flex;
     justify-content: space-between;
 }
 
-.main-block__project-time-list {
-    height: 399px;
+.main-block__current-month-time-list{
+    height: 136px;
+    margin-bottom: 40px;
     display: flex;
     flex-direction: column;
 }
 
-.main-block__project-time div[class*="value"],
-.main-block__project-time div[class*="key"] {
+.main-block__current-month-time div[class*="value"],
+.main-block__current-month-time div[class*="key"]{
     color: var(--color-primary);
+    position: relative;
 }
 
-.main-block__project-time-list div[class=key] {
+.main-block__current-month-time-list div[class=key] {
     font-weight: var(--fw-semi-bold);
 }
 
-.value-sum, .key-sum {
+.value-sum, .key-sum{
     font-weight: var(--fw-semi-bold);
 }
