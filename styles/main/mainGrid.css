@@ -39,6 +39,10 @@
     /*margin-left: 32px;*/
 }
 
+.header-title{
+    text-align: right;
+}
+
 .task-name-header {
     /*margin-left: 31px;*/
     width: 158px;
@@ -55,6 +59,8 @@
 }
 
 .efficiency-header {
+    display: flex;
+    justify-content: right;
     /*margin-right: 32px;*/
     /*margin-left: 31px;*/
     width: 88px;

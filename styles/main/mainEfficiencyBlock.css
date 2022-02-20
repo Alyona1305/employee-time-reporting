@@ -63,17 +63,6 @@
     justify-content: space-between;
 }
 
-/*.main-block-efficiency div[class*="value"],*/
-/*.main-block-efficiency div[class*="key"],*/
-/*.main-block-efficiency div[class*="percent"]{*/
-/*    color: var(--color-primary);*/
-/*    !*position: relative;*!*/
-/*}*/
-
-/*.main-block__estimations-list div[class=key] {*/
-/*    font-weight: var(--fw-semi-bold);*/
-/*}*/
-
 .main-block-efficiency__total-list .li:not(:first-child):after,
 .main-block-efficiency__current-month-list .li:not(:first-child):after {
     width: 576px;
@@ -90,4 +79,18 @@
     margin-top: 12px;
     color: var(--color-primary);
     font-weight: var(--fw-bold);
+}
+
+.key-efficiency, .value-efficiency,
+.percent-efficiency, .key-average,
+.value-average, .percent-average{
+    width: 65px;
+}
+
+.percent-average, .percent-efficiency{
+    text-align: right;
+}
+
+.value-average, .value-efficiency{
+    text-align: center;
 }

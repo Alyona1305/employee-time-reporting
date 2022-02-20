@@ -2,6 +2,7 @@
 .main {
     font-size: var(--basic-font-size);
     background-color: var(--main-bg-color);
+    line-height: 21px;
 }
 
 .main-block, .main-block-efficiency {
@@ -40,6 +41,14 @@
     width: 240px;
 }
 
+.li:nth-child(2):before {
+    content: '';
+    position: absolute;
+    border-bottom: var(--main-border);
+    width: 240px;
+    padding-bottom: 37px;
+}
+
 .nested-ul{
     position: relative;
 }
@@ -63,3 +72,4 @@
     width: var(--inside-block-width);
     padding-left: 15px;
 }
+
