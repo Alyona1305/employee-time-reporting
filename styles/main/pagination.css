@@ -1,0 +1,65 @@
+@import "../root.css";
+@import "main.css";
+
+.pagination {
+    margin: 0 0 0 92px;
+    display: flex;
+    align-items: center;
+}
+
+.pagination__rows-per-page {
+    margin-right: 12px;
+    color: var(--text-color-secondary);
+    font-size: var(--basic-font-size);
+}
+
+.pagination-select {
+    width: 61px;
+    height: 40px;
+    padding-left: 12px;
+    margin-right: 12px;
+}
+
+.pagination__count {
+    color: var(--text-color-secondary);
+    margin-right: 12px;
+}
+
+.pagination__page-number{
+    height: 40px;
+    width: 122px;
+    border: var(--main-border);
+    border-radius: var(--main-border-radius);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagination-button-selected{
+    width: 24px;
+    height: 24px;
+    border-radius: 4px;
+    background-color: var(--text-color-light-violet);
+    border: none;
+    color: var(--color-white);
+    margin-left: 14px;
+}
+
+
+
+.pagination-button{
+    border: none;
+    width: 24px;
+    height: 24px;
+    background-color: var(--main-bg-color);
+    color: var(--text-color-secondary);
+    margin-right: 14px;
+}
+
+/*.arrowRight{*/
+/* */
+/*}*/
+
+/*.arrowLeft{*/
+/*    margin-right: 18px;*/
+/*}*/

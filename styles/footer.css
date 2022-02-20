@@ -1,0 +1,25 @@
+@import "root.css";
+
+.footer{
+    background-color: var(--main-bg-color);
+    line-height: 21px;
+    height: 68px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-title{
+    padding-top: 40px;
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+
+.footer-title__department-name{
+    color: var(--color-white);
+
+}
+
+.footer-title__company-name{
+    color: var(--secondary-bg-color);
+}

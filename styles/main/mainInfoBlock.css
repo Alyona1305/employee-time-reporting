@@ -86,3 +86,26 @@
     color: var(--color-alert);
 }
 
+.label{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.label-name{
+    position: absolute;
+    left: 20px;
+    font-size: 12px;
+}
+
+.tag{
+    height: 24px;
+    width: 100px;
+    border: 1px solid #6F68C6;
+    border-radius: 15px;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}

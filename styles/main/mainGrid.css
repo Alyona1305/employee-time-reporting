@@ -7,6 +7,7 @@
     justify-content: center;
     flex-direction: column;
     font-size: 12px;
+    position: relative;
 }
 
 .header {
@@ -241,6 +242,7 @@
     background-color: var(--tone-dark-grey-bg-color-first);
     display: flex;
     justify-content: space-between;
+    margin-bottom: 20px;
 }
 
 .sum-conclusion{
@@ -250,4 +252,28 @@
 
 .sum-conclusion-container{
     display: flex;
+}
+
+.grid-scroll {
+    overflow-y: scroll;
+    height: 248px;
+    position: absolute;
+    right: 70px;
+    top: 80px;
+    background: rgba(143, 127, 255, 0.25);
+    border-radius: var(--main-border-radius);
+}
+
+.grid-scroll::-webkit-scrollbar {
+    width: 8px;
+    /*background-color: rgba(143, 127, 255, 0.25);*/
+}
+
+.grid-scroll::-webkit-scrollbar-track {
+    /*background: rgba(143, 127, 255, 0.25);*/
+}
+
+.grid-scroll::-webkit-scrollbar-thumb {
+    background-color: rgba(143, 127, 255, 0.25);
+    border-radius: 7px;
 }
