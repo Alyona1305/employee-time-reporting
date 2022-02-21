@@ -48,7 +48,7 @@
     --checkbox-width: 20px;
 
     /*for header*/
-    --width-categoty-header: 127px;
+    --width-selected-item-header: 127px;
     --mr-categoty-header: 48px;
     --height-category-header: 100%;
     --ml-category-text: 8px;
@@ -78,6 +78,7 @@
 
 .container {
     width: 1440px;
+    /*remove*/
     /*height: 2068px;*/
 }
 

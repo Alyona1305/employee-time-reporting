@@ -9,41 +9,45 @@
 </head>
 <body>
 <div class="container">
-    <header class="header">
-        <div class="header__app-logo">
-            <img src="assets/svg/mainLogo.svg" alt="employee time"/>
-        </div>
-        <div class="header__summary">
-            <img src="assets/svg/summary.svg" alt="summary">
-            <span class="header__summary-text">Summary</span>
-        </div>
-        <div class="header__hours">
-            <img src="assets/svg/timeClock.svg" alt="hours">
-            <span class="header__hours-text">Hours</span>
-        </div>
-        <div class="header__projects">
-            <img src="assets/svg/pencil.svg" alt="projects">
-            <span class="header__projects-text">Projects</span>
-        </div>
-        <div class="header__time-reports">
-            <img src="assets/svg/timeReports.svg" alt="time reports">
-            <span class="header__time-reports-text">Time reports</span>
-        </div>
-        <div class="header__confirmation">
-            <img src="assets/svg/confirmation.svg" alt="confirmation">
-            <span class="header__confirmation-text">Confirmation</span>
-        </div>
-        <div class="header__mailer">
-            <img src="assets/svg/mailer.svg" alt="mailer">
-            <span class="header__mailer-text">Mailer</span>
-        </div>
-        <div class="header__compare">
-            <img src="assets/svg/compare.svg" alt="compare">
-            <span class="header__compare-text">Compare</span>
-        </div>
-        <div class="header__avatar">
-            <img src="assets/svg/avatar.svg" alt="avatar">
-        </div>
+    <header>
+        <nav>
+            <ul>
+                <li class="header__app-logo">
+                    <img src="assets/svg/mainLogo.svg" alt="employee time"/>
+                </li>
+                <li>
+                    <img src="assets/svg/summary.svg" alt="summary">
+                    <a>Summary</a>
+                </li>
+                <li>
+                    <img src="assets/svg/timeClock.svg" alt="hours">
+                    <a class="header__hours-text">Hours</a>
+                </li>
+                <li class="header__selected-item">
+                    <img src="assets/svg/pencil.svg" alt="projects">
+                    <a>Projects</a>
+                </li>
+                <li>
+                    <img src="assets/svg/timeReports.svg" alt="time reports">
+                    <a>Time reports</a>
+                </li>
+                <li>
+                    <img src="assets/svg/confirmation.svg" alt="confirmation">
+                    <a>Confirmation</a>
+                </li>
+                <li>
+                    <img src="assets/svg/mailer.svg" alt="mailer">
+                    <a>Mailer</a>
+                </li>
+                <li>
+                    <img src="assets/svg/compare.svg" alt="compare">
+                    <a>Compare</a>
+                </li>
+                <li class="header__avatar">
+                    <img src="assets/svg/avatar.svg" alt="avatar">
+                </li>
+            </ul>
+        </nav>
     </header>
     <main class="main">
         <div class="main__filters">
@@ -293,7 +297,7 @@
                     </div>
                 </div>
             </div>
-            <div class="grid ">
+            <div class="grid">
                 <div class="grid-scroll"></div>
                 <header class="grid-row header">
                     <div class="grid-cell task-name-header">

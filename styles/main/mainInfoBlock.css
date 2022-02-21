@@ -14,13 +14,6 @@
     align-items: center;
 }
 
-/*.main-block__project-info-separator{*/
-/*    height: 39px;*/
-/*    width: var(--block-width);*/
-/*    position: absolute;*/
-/*    bottom: 0;*/
-/*}*/
-
 .scroll {
     overflow-y: scroll;
     margin-right: 10px;
@@ -47,18 +40,19 @@
 }
 
 .main-block__project-info-li {
-    color: var(--color-primary);
     display: flex;
     justify-content: space-between;
     margin-bottom: 16px;
 }
 
 .main-block__project-info-key {
+    color: var(--color-primary);
     font-weight: var(--fw-semi-bold);
 
 }
 
 .main-block__project-info-value {
+    color: var(--text-color-secondary);
     font-weight: var(--fw-normal);
     width: 385px;
     margin: 0 46px;
@@ -95,6 +89,9 @@
 .label-name{
     position: absolute;
     left: 20px;
+}
+
+.label-name, .tag{
     font-size: 12px;
 }
 
@@ -103,7 +100,6 @@
     width: 100px;
     border: 1px solid #6F68C6;
     border-radius: 15px;
-    font-size: 12px;
     display: flex;
     justify-content: center;
     align-items: center;
