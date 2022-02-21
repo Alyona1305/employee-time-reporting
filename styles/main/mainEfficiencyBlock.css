@@ -98,7 +98,7 @@
 .figure-efficiency{
     width: 8px;
     height: 160px;
-    background: linear-gradient(350.45deg, #BFBAFA 15.3%, #624BFF 87.74%, #8F7FFF 87.74%, #7F76F7 87.74%);
+    background: linear-gradient(350.45deg, var(--light-grey-bg-color) 15.3%,  var(--secondary-bg-color) 47.74%, var(--light-blue-tone-bg-color) 67.74%, var(--blue-tone-bg-color) 77.74%);
     border-radius: 7px 0 0 7px;
     transform: rotate(-180deg);
     position: absolute;

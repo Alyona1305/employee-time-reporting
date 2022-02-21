@@ -14,6 +14,10 @@
     --primary-bg-color: #242B35;
     --secondary-bg-color: #8F7FFF;
     --dark-grey-bg-color: #3D444E;
+    --light-grey-bg-color: #BFBAFA;
+    --blue-tone-bg-color: #624BFF;
+    --light-blue-tone-bg-color: #7F76F7;
+
     --tone-dark-grey-bg-color-first: #2D333D;
     --tone-dark-grey-bg-color-second: #1E242F;
     --color-primary: #C7BFFF;
@@ -68,6 +72,7 @@
 }
 
 .container {
+    font-family: 'Open Sans', sans-serif;
     width: 1440px;
     /*height: 2068px;*/
 }

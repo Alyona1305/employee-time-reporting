@@ -25,7 +25,7 @@
     margin-right: 12px;
 }
 
-.pagination__page-number{
+.pagination__page-number {
     height: 40px;
     width: 122px;
     border: var(--main-border);
@@ -35,7 +35,7 @@
     align-items: center;
 }
 
-.pagination-button-selected{
+.pagination-button-selected {
     width: 24px;
     height: 24px;
     border-radius: 4px;
@@ -46,8 +46,7 @@
 }
 
 
-
-.pagination-button{
+.pagination-button {
     border: none;
     width: 24px;
     height: 24px;
@@ -56,10 +55,6 @@
     margin-right: 14px;
 }
 
-/*.arrowRight{*/
-/* */
-/*}*/
-
-/*.arrowLeft{*/
-/*    margin-right: 18px;*/
-/*}*/
+.arrowPrev, .arrowNext {
+    cursor: pointer;
+}
