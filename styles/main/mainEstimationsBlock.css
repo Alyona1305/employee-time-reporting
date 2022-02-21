@@ -15,7 +15,7 @@
     margin-bottom: var(--inside-block-mb);
 }
 
-.main-block__estimations-list{
+.estimations-list{
     height: 99px;
     display: flex;
     flex-direction: column;
@@ -32,6 +32,21 @@
     position: relative;
 }
 
-.main-block__estimations-list div[class=key] {
+.estimations-list div[class=key] {
     font-weight: var(--fw-semi-bold);
+}
+
+.estimations-item:not(:first-child):after {
+    content: '';
+    position: absolute;
+    border-bottom: var(--main-border);
+    width: 240px;
+}
+
+.estimations-item:nth-child(2):before {
+    content: '';
+    position: absolute;
+    border-bottom: var(--main-border);
+    width: 240px;
+    padding-bottom: 37px;
 }

@@ -12,7 +12,7 @@
     flex-direction: column;
 }
 
-.main-block__total-time-title {
+.main-block__time-title {
     width: var(--inside-block-width);
     font-size: var(--basic-font-size);
     font-weight: var(--fw-normal);
@@ -26,7 +26,7 @@
     justify-content: space-between;
 }
 
-.main-block__project-time-list {
+.time-list {
     height: 399px;
     display: flex;
     flex-direction: column;

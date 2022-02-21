@@ -20,7 +20,7 @@
     justify-content: space-between;
 }
 
-.main-block__current-month-time-list{
+.month-time-list{
     height: 136px;
     margin-bottom: 40px;
     display: flex;
@@ -33,7 +33,7 @@
     position: relative;
 }
 
-.main-block__current-month-time-list div[class=key] {
+.month-time-list div[class=key] {
     font-weight: var(--fw-semi-bold);
 }
 
