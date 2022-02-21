@@ -23,7 +23,6 @@
 
 .main-block-efficiency__container{
     display: flex;
-    /*margin-left: 57px;*/
 }
 
 .main-block-efficiency__total-container,
@@ -40,7 +39,6 @@
 .main-block-efficiency__total{
     width: 100%;
 }
-
 
 .main-block-efficiency__total-title,
 .main-block-efficiency__current-month-title{

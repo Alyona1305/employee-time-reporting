@@ -2,12 +2,11 @@
 .main {
     font-size: var(--basic-font-size);
     background-color: var(--main-bg-color);
-    line-height: 21px;
 }
 
 .main-block, .main-block-efficiency {
-    display: flex;
     margin-left: var(--main-ml);
+    display: flex;
     margin-bottom: 24px;
 }
 
