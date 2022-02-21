@@ -2,7 +2,7 @@
 
 .header {
     background-color: var(--primary-bg-color);
-    border-bottom: 1px solid var(--main-border);
+    border-bottom: var(--main-border);
     font-weight: var(--fw-semi-bold);
     font-size: var(--basic-font-size);
     display: flex;
