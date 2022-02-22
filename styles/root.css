@@ -2,8 +2,6 @@
 @import "main/filters.css";
 @import "main/mainInfoBlock.css";
 @import "main/mainTimeBlock.css";
-@import "main/mainCurMonthBlock.css";
-@import "main/mainEstimationsBlock.css";
 @import "main/mainEfficiencyBlock.css";
 @import "main/mainGrid.css";
 @import "main/pagination.css";
@@ -77,7 +75,7 @@
 }
 
 .container {
-    width: 1440px;
+    /*width: 1440px;*/
     /*remove*/
     /*height: 2068px;*/
 }

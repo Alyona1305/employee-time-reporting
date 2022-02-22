@@ -12,18 +12,13 @@
     flex-direction: column;
 }
 
-.main-block__time-title {
+.main-block__time-title,.main-block__current-month-time-title,
+.main-block__estimations-title {
     width: var(--inside-block-width);
     font-size: var(--basic-font-size);
     font-weight: var(--fw-normal);
     color: var(--color-primary);
     margin-bottom: var(--inside-block-mb);
-}
-
-
-.main-block__total-time-container li {
-    display: flex;
-    justify-content: space-between;
 }
 
 .time-list {
@@ -32,15 +27,60 @@
     flex-direction: column;
 }
 
-.main-block__project-time div[class*="value"],
-.main-block__project-time div[class*="key"] {
-    color: var(--color-primary);
+
+.time-key {
+    color: var(--text-color-secondary);
+    font-weight: var(--fw-semi-bold);
+    margin: 8px 0;
 }
 
-.main-block__project-time-list div[class=key] {
-    font-weight: var(--fw-semi-bold);
+.time-value {
+    color: var(--text-color-secondary);
+    font-weight: var(--fw-normal);
+    margin: 8px 0;
 }
 
 .value-sum, .key-sum {
     font-weight: var(--fw-semi-bold);
+    color: var(--text-color-secondary);
 }
+
+.nested-key, .nested-value{
+    color: var(--text-color-secondary);
+}
+
+.time-item:not(:first-child):after {
+    content: '';
+    position: absolute;
+    border-bottom: var(--main-border);
+    width: 240px;
+}
+
+.time-item:nth-child(2):before {
+    content: '';
+    position: absolute;
+    border-bottom: var(--main-border);
+    width: 240px;
+    padding-bottom: 37px;
+}
+
+.main-block__estimations-container, .main-block__current-month-time-container{
+    width: var(--inside-block-width);
+    display: flex;
+    flex-direction: column;
+}
+
+.estimations-list{
+    height: 99px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-block__current-month-time-list{
+    height: 136px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+

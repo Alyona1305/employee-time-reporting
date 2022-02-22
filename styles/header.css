@@ -1,22 +1,28 @@
 @import "root.css";
 
-nav {
+/*header{*/
+/*    display: flex;*/
+/*}*/
+
+header nav {
     background-color: var(--primary-bg-color);
     border-bottom: var(--main-border);
     font-weight: var(--fw-semi-bold);
     font-size: var(--basic-font-size);
     display: flex;
     align-items: center;
+    justify-content: center;
     height: 68px;
+    width: 100%;
 }
 
-nav ul {
+header nav ul {
     display: flex;
     align-items: center;
     height: 100%;
 }
 
-nav li {
+header nav li {
     cursor: pointer;
     display: flex;
     align-items: center;
@@ -25,7 +31,7 @@ nav li {
     height: 100%;
 }
 
-nav li a {
+header nav li a {
     color: var(--text-color-secondary);
     margin-left: var(--ml-category-text);
 }

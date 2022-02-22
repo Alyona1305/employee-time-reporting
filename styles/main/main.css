@@ -26,6 +26,11 @@
     position: relative;
 }
 
+.main-block__project-time li{
+    display: flex;
+    justify-content: space-between;
+}
+
 .main-block__project-time-title {
     margin: var(--block-margin-title);
     font-size: var(--block-fs-title);
