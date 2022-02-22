@@ -79,6 +79,7 @@
 .percent-efficiency, .key-average,
 .value-average, .percent-average{
     width: 65px;
+    color: var(--text-color-secondary);
 }
 
 .percent-average, .percent-efficiency{
